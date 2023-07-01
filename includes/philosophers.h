@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   philosophers.h                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: khnishou <khnishou@student.42.fr>          +#+  +:+       +#+        */
+/*   By: ykerdel <ykerdel@student.42heilbronn.de    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/01 12:02:20 by ykerdel           #+#    #+#             */
-/*   Updated: 2023/06/30 16:14:27 by khnishou         ###   ########.fr       */
+/*   Updated: 2023/07/01 20:28:09 by ykerdel          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,13 +22,13 @@
 # include <string.h>
 # include <sys/time.h>
 
-#define RED     "\x1b[31m"
-#define GREEN   "\x1b[32m"
-#define YELLOW  "\x1b[33m"
-#define BLUE    "\x1b[34m"
-#define MAGENTA "\x1b[35m"
-#define CYAN    "\x1b[36m"
-#define RESET   "\x1b[0m"
+# define RED     "\x1b[31m"
+# define GREEN   "\x1b[32m"
+# define YELLOW  "\x1b[33m"
+# define BLUE    "\x1b[34m"
+# define MAGENTA "\x1b[35m"
+# define CYAN    "\x1b[36m"
+# define RESET   "\x1b[0m"
 
 typedef enum e_error_code
 {
@@ -62,13 +62,13 @@ typedef struct s_philo
 
 }	t_philo;
 
-int			check_arg(int argc, char **argv);
+int			check_arg(char **argv);
 int			check_dead(t_philo *philo, long int time);
 
 void		ft_exit(t_error err, t_philo *philo);
 
-t_data		init_data(int argc, char *argv[]);
-t_philo*	init_philo(t_data data, int argc, char *argv[]);
+t_data		init_data(char *argv[]);
+t_philo		*init_philo(t_data data, int argc, char *argv[]);
 
 void		time_wait(int time);
 long int	time_init(void);
@@ -78,6 +78,5 @@ void		action_dead(t_philo *philo);
 void		action_think(t_philo *philo);
 long int	action_eat(t_philo *philo);
 void		action_sleep(t_philo *philo);
-
 
 #endif

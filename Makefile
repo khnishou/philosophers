@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: khnishou <khnishou@student.42.fr>          +#+  +:+       +#+         #
+#    By: ykerdel <ykerdel@student.42heilbronn.de    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/05/01 12:11:58 by ykerdel           #+#    #+#              #
-#    Updated: 2023/06/30 16:15:58 by khnishou         ###   ########.fr        #
+#    Updated: 2023/07/01 11:49:11 by ykerdel          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 

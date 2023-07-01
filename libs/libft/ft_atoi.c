@@ -6,7 +6,7 @@
 /*   By: ykerdel <ykerdel@student.42heilbronn.de    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/19 22:21:14 by ykerdel           #+#    #+#             */
-/*   Updated: 2023/06/03 12:51:22 by ykerdel          ###   ########.fr       */
+/*   Updated: 2023/07/01 20:27:27 by ykerdel          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,6 @@ long int	ft_atoi(const char *str)
 	int			i;
 	int			mult;
 	long int	nb;
-
 
 	mult = 1;
 	nb = 0;

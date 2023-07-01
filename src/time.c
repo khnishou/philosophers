@@ -6,7 +6,7 @@
 /*   By: ykerdel <ykerdel@student.42heilbronn.de    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/02 15:25:51 by ykerdel           #+#    #+#             */
-/*   Updated: 2023/06/02 15:49:55 by ykerdel          ###   ########.fr       */
+/*   Updated: 2023/07/01 20:23:39 by ykerdel          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 void	time_wait(int time)
 {
-	useconds_t microsecond;
+	useconds_t	microsecond;
 
 	microsecond = (useconds_t) time * 1000;
 	usleep(microsecond);

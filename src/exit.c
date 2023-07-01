@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   exit.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: khnishou <khnishou@student.42.fr>          +#+  +:+       +#+        */
+/*   By: ykerdel <ykerdel@student.42heilbronn.de    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/03 12:55:30 by ykerdel           #+#    #+#             */
-/*   Updated: 2023/06/30 16:12:11 by khnishou         ###   ########.fr       */
+/*   Updated: 2023/07/01 20:25:13 by ykerdel          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,7 +26,6 @@ void	ft_free(t_philo *philo)
 		i++;
 	}
 	free(philo);
-	
 }
 
 void	ft_exit(t_error err, t_philo *philo)

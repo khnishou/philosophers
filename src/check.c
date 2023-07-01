@@ -6,13 +6,13 @@
 /*   By: ykerdel <ykerdel@student.42heilbronn.de    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/03 13:20:06 by ykerdel           #+#    #+#             */
-/*   Updated: 2023/06/11 13:27:54 by ykerdel          ###   ########.fr       */
+/*   Updated: 2023/07/01 20:22:03 by ykerdel          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../includes/philosophers.h"
 
-int	check_arg(int argc, char **argv)
+int	check_arg(char **argv)
 {
 	int	i;
 	int	j;
